@@ -1,0 +1,15 @@
+Here I write the future fixes for this program to make better
+
+In read_files, I need a better python way to check for duplicate
+    Something with __eq__ and to check the VIN on each car in garage
+
+ In the garage file, there will be a need for the ability to interate through the list
+    Using __iter__ can be the best way to go
+
+ In file, the excepts need a better and more thorough with the excepts that can happen.
+    I will need to investigate more the different excepts and what can apply for files
+
+In files, there needs to be a check for the inputs coming in from the data sheet,
+    specifically the mileage and ensure it is an int.
+    Best practice may be to add to a different list and have user check and fix,
+        Or throw them into obscurity.
